@@ -2171,7 +2171,7 @@ void CInfClassHuman::OnHeroFlagTaken(CInfClassCharacter *pHero)
 		m_pCharacter->GiveWeapon(WEAPON_GRENADE, -1);
 		m_pCharacter->GiveWeapon(WEAPON_LASER, -1);
 
-		if(GameController()->AreTurretsEnabled())
+		if(true)
 		{
 			int NewNumberOfTurrets = clamp<int>(m_TurretCount + Config()->m_InfTurretGive, 0, Config()->m_InfTurretMaxPerPlayer);
 			if(m_TurretCount != NewNumberOfTurrets)
