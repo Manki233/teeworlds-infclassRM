@@ -3733,13 +3733,7 @@ bool CInfClassGameController::CanJoinTeam(int Team, int ClientId)
 
 bool CInfClassGameController::AreTurretsEnabled() const
 {
-	if(!Config()->m_InfTurretEnable)
-		return false;
-
-	if(GetRoundType() == ERoundType::Survival)
-		return true;
-
-	return Server()->GetActivePlayerCount() >= static_cast<uint32_t>(Config()->m_InfMinPlayersForTurrets);
+	return true;
 }
 
 bool CInfClassGameController::MercBombsEnabled() const
