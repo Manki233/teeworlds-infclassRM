@@ -1632,7 +1632,7 @@ void CInfClassHuman::SnapHero(int SnappingClient)
 		int TickLimit = m_pPlayer->m_LastActionMoveTick + FlagIndicatorTime * Server()->TickSpeed();
 		TickLimit = maximum(TickLimit, m_pHeroFlag->GetSpawnTick());
 
-		if(CurrentTick > TickLimit)
+		if(true)
 		{
 			CNetObj_Laser *pObj = Server()->SnapNewItem<CNetObj_Laser>(m_pCharacter->GetCursorId());
 			if(!pObj)
