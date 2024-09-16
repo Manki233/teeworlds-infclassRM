@@ -130,7 +130,7 @@ void CTurret::AttackTargets()
 		if(!m_ammunition)
 			break;
 
-		if(!pChr->IsInfected() || !pChr->CanDie())
+		if(pChr->IsInfected() || !pChr->CanDie())
 			continue;
 
 		float Len = distance(pChr->m_Pos, m_Pos);

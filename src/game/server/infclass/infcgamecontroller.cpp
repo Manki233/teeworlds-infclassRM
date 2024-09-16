@@ -1180,7 +1180,7 @@ const char *CInfClassGameController::GetClassDisplayName(EPlayerClass PlayerClas
 		case EPlayerClass::Medic:
 			return _("Medic");
 		case EPlayerClass::Hero:
-			return _("Hero");
+			return _("Mooncaker");
 		case EPlayerClass::Engineer:
 			return _("Engineer");
 		case EPlayerClass::Soldier:
@@ -1217,7 +1217,7 @@ const char *CInfClassGameController::GetClassDisplayName(EPlayerClass PlayerClas
 		case EPlayerClass::Witch:
 			return _("Witch");
 		case EPlayerClass::Undead:
-			return _("Undead");
+			return _("Chang'e");
 
 		case EPlayerClass::None:
 		default:

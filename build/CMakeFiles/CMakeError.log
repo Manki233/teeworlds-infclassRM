@@ -1,0 +1,59 @@
+Determining if the C compiler works failed with the following output:
+Change Dir: C:/Users/moliz/Desktop/中秋特供/teeworlds-infclassRM/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):nmake /nologo cmTC_7347b\fast && 	"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\bin\Hostx64\x64\nmake.exe"  -f CMakeFiles\cmTC_7347b.dir\build.make /nologo -L                  CMakeFiles\cmTC_7347b.dir\build
+Building C object CMakeFiles/cmTC_7347b.dir/testCCompiler.c.obj
+	C:\PROGRA~1\MICROS~1\2022\COMMUN~1\VC\Tools\MSVC\1436~1.325\bin\Hostx64\x64\cl.exe @C:\Users\moliz\AppData\Local\Temp\nmD517.tmp
+testCCompiler.c
+Linking C executable cmTC_7347b.exe
+	"C:\Program Files\CMake\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_7347b.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100220~1.0\x64\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100220~1.0\x64\mt.exe --manifests  -- C:\PROGRA~1\MICROS~1\2022\COMMUN~1\VC\Tools\MSVC\1436~1.325\bin\Hostx64\x64\link.exe /nologo @CMakeFiles\cmTC_7347b.dir\objects1.rsp @C:\Users\moliz\AppData\Local\Temp\nmD595.tmp
+LINK Pass 1: command "C:\PROGRA~1\MICROS~1\2022\COMMUN~1\VC\Tools\MSVC\1436~1.325\bin\Hostx64\x64\link.exe /nologo @CMakeFiles\cmTC_7347b.dir\objects1.rsp /out:cmTC_7347b.exe /implib:cmTC_7347b.lib /pdb:C:\Users\moliz\Desktop\???????\teeworlds-infclassRM\build\CMakeFiles\CMakeTmp\cmTC_7347b.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\cmTC_7347b.dir/intermediate.manifest CMakeFiles\cmTC_7347b.dir/manifest.res" failed (exit code 1201) with the following output:
+LINK : fatal error LNK1201: 写入程序数据库“C:\Users\moliz\Desktop\???????\teeworlds-infclassRM\build\CMakeFiles\CMakeTmp\cmTC_7347b.pdb”时出错；请检查是否是磁盘空间不足、路径无效或权限不够
+NMAKE : fatal error U1077: “"C:\Program Files\CMake\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_7347b.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100220~1.0\x64\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100220~1.0\x64\mt.exe --manifests  -- C:\PROGRA~1\MICROS~1\2022\COMMUN~1\VC\Tools\MSVC\1436~1.325\bin\Hostx64\x64\link.exe /nologo @CMakeFiles\cmTC_7347b.dir\objects1.rsp @C:\Users\moliz\AppData\Local\Temp\nmD595.tmp”: 返回代码“0xffffffff”
+Stop.
+NMAKE : fatal error U1077: “"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\bin\Hostx64\x64\nmake.exe"  -f CMakeFiles\cmTC_7347b.dir\build.make /nologo -L                  CMakeFiles\cmTC_7347b.dir\build”: 返回代码“0x2”
+Stop.
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: C:/Users/moliz/Desktop/中秋特供/teeworlds-infclassRM/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):nmake /nologo cmTC_e5da2\fast && 	"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\bin\Hostx64\x64\nmake.exe"  -f CMakeFiles\cmTC_e5da2.dir\build.make /nologo -L                  CMakeFiles\cmTC_e5da2.dir\build
+Building C object CMakeFiles/cmTC_e5da2.dir/testCCompiler.c.obj
+	C:\PROGRA~1\MICROS~1\2022\COMMUN~1\VC\Tools\MSVC\1436~1.325\bin\Hostx64\x64\cl.exe @C:\Users\moliz\AppData\Local\Temp\nmE469.tmp
+testCCompiler.c
+Linking C executable cmTC_e5da2.exe
+	"C:\Program Files\CMake\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_e5da2.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100220~1.0\x64\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100220~1.0\x64\mt.exe --manifests  -- C:\PROGRA~1\MICROS~1\2022\COMMUN~1\VC\Tools\MSVC\1436~1.325\bin\Hostx64\x64\link.exe /nologo @CMakeFiles\cmTC_e5da2.dir\objects1.rsp @C:\Users\moliz\AppData\Local\Temp\nmE507.tmp
+LINK Pass 1: command "C:\PROGRA~1\MICROS~1\2022\COMMUN~1\VC\Tools\MSVC\1436~1.325\bin\Hostx64\x64\link.exe /nologo @CMakeFiles\cmTC_e5da2.dir\objects1.rsp /out:cmTC_e5da2.exe /implib:cmTC_e5da2.lib /pdb:C:\Users\moliz\Desktop\???????\teeworlds-infclassRM\build\CMakeFiles\CMakeTmp\cmTC_e5da2.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\cmTC_e5da2.dir/intermediate.manifest CMakeFiles\cmTC_e5da2.dir/manifest.res" failed (exit code 1201) with the following output:
+LINK : fatal error LNK1201: 写入程序数据库“C:\Users\moliz\Desktop\???????\teeworlds-infclassRM\build\CMakeFiles\CMakeTmp\cmTC_e5da2.pdb”时出错；请检查是否是磁盘空间不足、路径无效或权限不够
+NMAKE : fatal error U1077: “"C:\Program Files\CMake\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_e5da2.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100220~1.0\x64\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100220~1.0\x64\mt.exe --manifests  -- C:\PROGRA~1\MICROS~1\2022\COMMUN~1\VC\Tools\MSVC\1436~1.325\bin\Hostx64\x64\link.exe /nologo @CMakeFiles\cmTC_e5da2.dir\objects1.rsp @C:\Users\moliz\AppData\Local\Temp\nmE507.tmp”: 返回代码“0xffffffff”
+Stop.
+NMAKE : fatal error U1077: “"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\bin\Hostx64\x64\nmake.exe"  -f CMakeFiles\cmTC_e5da2.dir\build.make /nologo -L                  CMakeFiles\cmTC_e5da2.dir\build”: 返回代码“0x2”
+Stop.
+
+
+
+Determining if the __i386 exist failed with the following output:
+Change Dir: C:/Users/moliz/Desktop/中秋特供/teeworlds-infclassRM/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~1/MICROS~1/2022/COMMUN~1/Common7/IDE/COMMON~1/MICROS~1/CMake/Ninja/ninja.exe cmTC_8f0b9 && [1/2] Building C object CMakeFiles\cmTC_8f0b9.dir\CheckSymbolExists.c.obj
+FAILED: CMakeFiles/cmTC_8f0b9.dir/CheckSymbolExists.c.obj 
+C:\PROGRA~1\MICROS~1\2022\COMMUN~1\VC\Tools\MSVC\1436~1.325\bin\Hostx64\x64\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\cmTC_8f0b9.dir\CheckSymbolExists.c.obj /FdCMakeFiles\cmTC_8f0b9.dir\ /FS -c CheckSymbolExists.c
+CheckSymbolExists.c(7): error C2065: “__i386”: 未声明的标识符
+ninja: build stopped: subcommand failed.
+
+
+File C:/Users/moliz/Desktop/中秋特供/teeworlds-infclassRM/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef __i386
+  return ((int*)(&__i386))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}

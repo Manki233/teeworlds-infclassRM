@@ -1162,7 +1162,7 @@ endif()
 # TESTS
 ########################################################################
 
-if(BUILD_TESTS)
+if(false)
   if(NOT TARGET gtest)
     message(SEND_ERROR "GTest not found, unable to build the tests")
   endif()

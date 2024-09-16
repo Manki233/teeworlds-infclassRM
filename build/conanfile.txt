@@ -1,0 +1,13 @@
+[requires]
+libpng/1.6.39
+icu/72.1
+zlib/1.2.13
+sqlite3/3.41.2
+libcurl/7.88.1
+[generators]
+cmake_find_package
+[options]
+libcurl:with_ssl=False
+libcurl:with_smb=False
+libcurl:with_pop3=False
+libcurl:with_smtp=False
